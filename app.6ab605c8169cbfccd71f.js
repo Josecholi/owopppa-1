@@ -193,14 +193,14 @@ if ((0, _misc.storageEnabled)()) {
 var options = exports.options = (0, _misc.propertyDefaults)(userOptions, {
 	serverAddress: [{
 		default: true,
-		title: 'mathias377 server',
+		title: 'Desmecito server',
 		proto: 'old',
-		url: 'wss://7000-c59855b8-fb19-41ed-9216-f486e0af728b.ws-eu0.gitpod.io/'
+		url: 'https://www.desmecito.herokuapp.com'
 	}, {
 		default: false,
-		title: 'mathias377 server',
+		title: 'Desmecito server',
 		proto: 'old',
-		url: 'ws://7000-c59855b8-fb19-41ed-9216-f486e0af728b.ws-eu0.gitpod.io/',
+		url: 'https://www.desmecito.herokuapp.com',
 		maxRetries: 1
 	}], // The server address that websockets connect to
 	fallbackFps: 30, // Fps used if requestAnimationFrame is not supported
