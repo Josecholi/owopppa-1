@@ -195,12 +195,12 @@ var options = exports.options = (0, _misc.propertyDefaults)(userOptions, {
 		default: true,
 		title: 'Desmecito server',
 		proto: 'old',
-		url: 'https://ourworldofpixels.com'
+		url: 'wss://ourworldofpixels.com'
 	}, {
 		default: false,
 		title: 'Desmecito server',
 		proto: 'old',
-		url: 'https://www.desmecito.herokuapp.com',
+		url: 'https://o',
 		maxRetries: 1
 	}], // The server address that websockets connect to
 	fallbackFps: 30, // Fps used if requestAnimationFrame is not supported
