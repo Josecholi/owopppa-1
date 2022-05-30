@@ -195,7 +195,7 @@ var options = exports.options = (0, _misc.propertyDefaults)(userOptions, {
 		default: true,
 		title: 'Desmecito server',
 		proto: 'old',
-		url: 'https://144.76.68.254:443'
+		url: 'https://ourworldofpixels.com'
 	}, {
 		default: false,
 		title: 'Desmecito server',
